@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bornbaby{
+    border: 2px solid black;
+    width:100% ;
+  
+}
+.main{
+    height: 100px;
+    background-image: linear-gradient(to right,white,#d6d6ff, rgb(250 248 250), rgb(215 215 215));
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+}
+.babylogo{
+    width:50%;
+    color: rgb(218, 91, 133);
+  font-style: oblique; 
+  font-size: 60px;
+  border: 1px solid black;
+}
+.nav1{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    float: left;
+    height: 50px;
+    color: rgb(38 38 192);
+    font-size: 20px;
+    margin: auto;
+    font-weight: bold;
+    border: 1px solid black;
+   
+}
+
+.nav1:hover, .nav2:hover{
+    color: rgb(4, 0, 255);
+}
+
+.nav2{
+    border: black;
+    color: red;
+    font-size: 10px;
+    width: 25%;
+    margin-right: 10px;
+    height: 50px;
+    display: flex;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 29px;
+    background-color:#dfdfdf;
+}
+.navbar{
+    justify-content: space-around;
+    display: flex;
+   width: 100%;
+    background: white;
+}
+   
+.dropbtn {
+  background:none;
+  color: rgb(31, 42, 194);
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  justify-content: space-around;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(241, 241, 250);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(21, 36, 235);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #b772d3}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: pink;
+}
+.babyimg{
+    position:relative;
+}
+.babyimg1{
+    position: absolute;
+    top:250px;
+    left:100px;
+    color: rgb(230, 31, 64);
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+.babyimg2{
+    position:absolute;
+    top: 380px;
+    left: 200px;
+    color:rgb(230,31,64);
+    text-align: center;
+}
+.babyimg3{
+    position: absolute;
+    top: 400px;
+    left: 370px;
+    color: white;
+    background-color:rgb(230,31,64); ;
+    padding: 10px;
+    margin: 20px;
+}
+.product{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    width: 100%;
+    
+}
+.product1{
+    background-image: url(babyessencials.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin:0px 10px;
+}
+.product2{
+    background-image: url(babycare.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin:0px 10px;
+}
+.product3{
+    background-image: url(babyapparels.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin:0px 10px;
+}
+.product4{
+    background-image: url(babyactivity.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin:0px 10px;
+}
+.babyproduct{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    width: 100%;
+    
+}
+.babyproduct1{
+    background-image: url(babybooties.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin:0px 10px;
+}
+.babyproduct2{
+    background-image: url(BabyBathing1\ .jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin:0px 10px;
+}
+.babyproduct3{
+    background-image: url(babybedding.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin:0px 10px;
+}
+.babyproduct4{
+    background-image: url(babytoy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin:0px 10px;
+}
+
+.babyimg21{
+   
+    display: flex;
+    border: hidden;
+    position: absolute;
+}
+.bedding1{
+    top: 450px;
+    color: rgb(20, 19, 19);
+    position:relative;
+    font-size: 50px;
+}
+.bedding2{
+    top: 400px;
+    color: rgb(18, 18, 19);
+    position:relative; 
+    font-size: 20px;
+    text-align: right;
+    word-spacing: 5px;
+    padding-right:15px ;
+}
+.bedding3{
+    top: 380px;
+    color: rgb(243, 243, 245);
+    position:relative;
+    left: 47%;
+    font-size: 20px;
+    background-color: rgb(12, 11, 12);
+    height: 40px;
+    width: 100px;
+}
+
+h2{
+    border:hidden;
+    background-color: rgb(250, 246, 246);
+    color:palevioletred;
+    height: 35px;
+    width: 250px;
+    margin-top: 5px;
+}
+
+.babybedding-product{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    width: 100%;
+    margin-top: 400px;
+    
+}
+.beddingproduct1{
+    background-image: url(baby21.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin:0px 10px;
+}
+.beddingproduct2{
+    background-image: url(bedding.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin:0px 10px;
+}
+.beddingproduct3{
+    background-image: url(806136.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin:0px 10px;
+}
+.beddingproduct4{
+    background-image: url(bedding1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin:0px 10px;
+}
+
+.babybedding-product1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    width: 100%;
+    
+}
+.beddingproduct5{
+    background-image: url(bedding2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin:0px 10px;
+}
+.beddingproduct6{
+    background-image: url(2196768.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin:0px 10px;
+}
+.beddingproduct7{
+    background-image: url(bedding3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin:0px 10px;
+}
+.beddingproduct8{
+    background-image: url(wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin:0px 10px;
+}
+
+
+.babybathcare{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 300px;
+    width: 100%;   
+}
+.bathcare1{
+    background-image: url(babybath1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin:0px 10px;
+}
+.bathcare2{
+    background-image: url(babybath2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin:0px 10px;
+}
+.bathcare3{
+    background-image: url(babybath3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin:0px 10px;
+}
+.bathcare4{
+    background-image: url(babybath4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin:0px 10px;
+}
+
+.babybathcare1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    width: 100%;
+    
+}
+.bathcare5{
+    background-image: url(babybath5.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin:0px 10px;
+}
+.bathcare6{
+    background-image: url(babybath6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin:0px 10px;
+}
+.bathcare7{
+    background-image: url(babybath7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin:0px 10px;
+}
+.bathcare8{
+    background-image: url(babybath8.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    margin:0px 10px;
+}
+p{
+    background-color: rgb(237, 240, 241);
+    font-size: 25px;
+    color: rgb(54, 96, 233);
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 260px;
+}
+
+.footer{
+    width: 100%;
+    /* height: 200px; */
+    /* border: 2px solid black; */
+    /* padding:5px; */
+    margin-top: 40px;
+    background-color: cornflowerblue;
+    font-size: 25px;
+    display: flex;
+    color: white;
+
+}

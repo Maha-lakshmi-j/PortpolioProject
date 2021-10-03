@@ -1,0 +1,1023 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+
+    <title>Fernspetals</title>
+    <style>
+        .form-control{
+            width: 300px;
+        }
+        .form-control{
+  width: 130px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px  rgb(218, 65, 238);
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+.form-control:focus {
+  width: 100%;
+}
+.image{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    text-align: center;
+    border:hidden;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    position: absolute;
+}
+.card-img-top{
+  height: 300px;
+}
+h5{
+  color: blue;
+  text-align: center;
+}
+p{
+  color: black;
+}
+table{
+  margin-left: 600px;
+  color: blue;
+
+}
+.card:hover{
+  background-color: rgb(250, 236, 236);
+}
+.btn-group{
+  position: sticky;
+  top: 00PX;
+  z-index: 10;
+}
+    </style>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:#0d6efd!important;">
+      <div class="container-fluid">
+        <img src="logo1.webp" style="height: 80px; width: 200px; padding-left: 20px;padding-right: 20px;">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Gifts
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Birthday</a></li>
+                <li><a class="dropdown-item" href="#">Anniverssory</a></li>
+                <li><a class="dropdown-item" href="#"> Cakes</li>
+                <li><a class="dropdown-item" href="#">Flower</a></li>
+              </ul>
+            </li>
+           
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-white" type="submit" style="color: white;">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+   
+    
+     <div class="container-fluid-sm">
+<div class="btn-group w-100 my-3">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+      Birthday
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Fashion</a></li>
+      <li><a class="dropdown-item" href="#">Gift</a></li>
+      <li><a class="dropdown-item" href="#">cake</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Flower</a></li>
+    </ul>
+
+    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Anniversary
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Pesnalized Gift</a></li>
+        <li><a class="dropdown-item" href="#">Jwellery</a></li>
+        <li><a class="dropdown-item" href="#">Flowers</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">saree</a></li>
+      </ul>
+
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Cakes
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Photo Cake</a></li>
+        <li><a class="dropdown-item" href="#">Pastries</a></li>
+        <li><a class="dropdown-item" href="#">Rose Cake</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Anniversary</a></li>
+      </ul>
+
+      <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Flowers
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Flower Boquote</a></li>
+        <li><a class="dropdown-item" href="#">Flower Gift Box</a></li>
+        <li><a class="dropdown-item" href="#">Flower & Greeting Card</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Flower Boquote with chocolate</a></li>
+      </ul>
+
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Plants
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Gardening</a></li>
+        <li><a class="dropdown-item" href="#">Indoor Plant</a></li>
+        <li><a class="dropdown-item" href="#">Money Plant</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Lilli Plants</a></li>
+      </ul>
+
+      <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Chocolates
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Ferrero Rocher</a></li>
+        <li><a class="dropdown-item" href="#">Milka</a></li>
+        <li><a class="dropdown-item" href="#">Nestle</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Cadbury</a></li>
+      </ul>
+
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        More Gifts
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Shoes</a></li>
+        <li><a class="dropdown-item" href="#">Aquarium Set</a></li>
+        <li><a class="dropdown-item" href="#">Puppies</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">pillow with photo</a></li>
+      </ul>
+
+      <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Combos
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Fashion with Perfume</a></li>
+        <li><a class="dropdown-item" href="#">Flowers with Chocolate</a></li>
+        <li><a class="dropdown-item" href="#">Gift Box with Cake</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Greeting Cards with photo</a></li>
+      </ul>
+
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Personalized
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Valentance Day special Cake</a></li>
+        <li><a class="dropdown-item" href="#">Flower Boquote</a></li>
+        <li><a class="dropdown-item" href="#">Chocolate</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Plants</a></li>
+      </ul>
+
+      <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Occations
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Deepavali</a></li>
+        <li><a class="dropdown-item" href="#">Chritmas</a></li>
+        <li><a class="dropdown-item" href="#">Pongal</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Dasara</a></li>
+      </ul>
+  </div>
+</div>
+
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="slider1.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="slider2.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="slider3.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="slider4.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="slider5.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="slider6.webp" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<div class="image">
+  <div class="image1">
+      <img src="anniverssary.png" style="width:150px; height: 150px; border-radius: 100px;">
+      <span>Anniverssary</span>
+  </div>
+  <div  class="image2">
+    <img src="birthday.jpg" style="width:150px; height: 150px; border-radius: 100px;">
+    <span>Birthday</span>
+</div>
+<div  class="image3">
+    <img src="cakes.jpg" style="width:150px; height: 150px; border-radius: 100px;">
+    <span>Cakes</span>
+</div>
+<div  class="image4">
+    <img src="flowers.jpg" style="width:150px; height: 150px; border-radius: 100px;">
+    <span>Flowers</span>
+</div>
+<div  class="image5">
+    <img src="Personalized.jpg" style="width:150px; height: 150px; border-radius: 100px;">
+    <span>Personalized</span>
+</div>
+<div  class="image6">
+    <img src="Plants.jpg" style="width:150px; height: 150px; border-radius: 100px;">
+    <span>Plants</span>
+</div>
+<div  class="image7">
+    <img src="NewArrivals.jpeg" style="width:150px; height: 150px; border-radius: 100px;">
+    <span>NewArrivals</span>
+</div>
+<div  class="image8">
+    <img src="combo.webp" style="width:150px; height: 150px; border-radius: 100px;">
+    <span>combo</span>
+</div>
+<div  class="image9">
+    <img src="international.jpg" style="width:150px; height: 150px; border-radius: 100px;">
+    <span>international</span>
+</div>
+</div>
+
+<div>
+    <p style="border: hidden;margin-top:290px; width: 700px;margin-left:450px; position:relative; font-size: 30px; word-spacing: 2px; line-height: 2px; padding-top:30px; color: rgb(156, 151, 151);">Fresh flower & Perfect Gifts for All Occations</p>
+    <p style="border:hidden; text-align: center;width: 700px; margin-left:400px; color: rgb(160, 157, 157);">3 hours delivery and free shipping india. 1,50,000 idea for your belogs</p>
+</div>
+
+<h1 style="margin-left: 130px; margin-top: 50px;">Shop By Best Seller Category</h1>
+
+<div class="container-sm my-3  p-3 text-warning">
+    <div class="row">
+      <div class="col-sm-3 w-25">
+        <div class="card">
+          <div class="card-body">
+            <div class="card-title"><h5>Teddy Love</h5></div>
+              <img class= "card-img-top" src="trending9.jpg">
+              <p>"Teddy bears don't need hearts as they are already stuffed with love."</p>
+          <div class="footer my-3" >
+            <div class="btn bg-info">255</div>
+             <div class="btn bg-warning" style="float: right;">Add to cart</div> 
+        </div>
+      </div>
+      </div>
+      </div>
+
+      <div class="col-sm-3 w-25">
+        <div class="card">
+          <div class="card-body">
+            <div class="card-title"><h5>Indoor Plants</h5></div>
+              <img class= "card-img-top" src="trending2.jpg">
+              <p> “Life begins the day you start a garden.”  </p>
+          <div class="footer my-3" >
+            <div class="btn bg-info">255</div>
+             <div class="btn bg-warning" style="float: right;">Add to cart</div> 
+        </div>
+      </div>
+      </div>
+      </div>
+
+      <div class="col-sm-3 w-25">
+        <div class="card">
+          <div class="card-body">
+            <div class="card-title"><h5>Gift for loved one</h5></div>
+              <img class= "card-img-top" src="trending3.jpg">
+              <p>"Your gift is not what you do but what you are."</p>
+          <div class="footer my-3" >
+            <div class="btn bg-info">255</div>
+             <div class="btn bg-warning" style="float: right;">Add to cart</div> 
+        </div>
+      </div>
+      </div>
+      </div>
+
+      <div class="col-sm-3 w-25">
+        <div class="card">
+          <div class="card-body">
+            <div class="card-title"><h5>The Best Cake</h5></div>
+              <img class= "card-img-top" src="trending4.jpg">
+              <p>"Don’t wait until it’s too late. Eat that slice of cake!"</p>
+          <div class="footer my-3" >
+            <div class="btn bg-info">255</div>
+             <div class="btn bg-warning" style="float: right;">Add to cart</div> 
+        </div>
+      </div>
+      </div>
+      </div>
+
+      <div class="col-sm-3 w-25">
+        <div class="card my-3">
+          <div class="card-body">
+            <div class="card-title"><h5>The Best Saree</h5></div>
+              <img class= "card-img-top" src="trending5.jpg">
+              <p>"A saree has the power to convert a girl next door into an artist’s muse!"</p>
+          <div class="footer my-3" >
+            <div class="btn bg-info">255</div>
+             <div class="btn bg-warning" style="float: right;">Add to cart</div> 
+        </div>
+      </div>
+      </div>
+      </div>
+
+
+      <div class="col-sm-3 w-25">
+        <div class="card my-3">
+          <div class="card-body">
+            <div class="card-title"><h5>Cusion With Photo</h5></div>
+              <img class= "card-img-top" src="trending6.jpg">
+              <p>"Sometime Your Forgot You'r Awesome So This Is Your Reminder."</p>
+          <div class="footer my-3" >
+            <div class="btn bg-info">255</div>
+             <div class="btn bg-warning" style="float: right;">Add to cart</div> 
+        </div>
+      </div>
+      </div>
+      </div>
+
+
+      <div class="col-sm-3 w-25">
+        <div class="card my-3">
+          <div class="card-body">
+            <div class="card-title"><h5>Coffee</h5></div>
+              <img class= "card-img-top" src="trending7.jpg">
+              <p>"Good Ideas Start with Great Coffee, Everything Gets Better with Coffee."</p>
+          <div class="footer my-3" >
+            <div class="btn bg-info">255</div>
+             <div class="btn bg-warning" style="float: right;">Add to cart</div> 
+        </div>
+      </div>
+      </div>
+      </div>
+
+
+      <div class="col-sm-3 w-25">
+        <div class="card my-3">
+          <div class="card-body">
+            <div class="card-title"><h5>Puppy Love</h5></div>
+              <img class= "card-img-top" src="trending8.jpg">
+              <p>Dog is the only thing on earth that loves you more than you love yourself</p>
+          <div class="footer my-3" >
+            <div class="btn bg-info">255</div>
+             <div class="btn bg-warning" style="float: right;">Add to cart</div> 
+        </div>
+      </div>
+      </div>
+      </div>
+
+      </div>
+    </div>
+
+
+<h1 style="margin-left: 130px;">Trending Now</h1>
+
+<div class="imagecard" >
+    <div class="container-sm my-3  p-3 text-warning">
+        <div class="row">
+          <div class="col-sm-5 w-25">
+            <div class="card my-3">
+              <div class="card-body">
+                <div class="card-title"><h5>Jwellery Set</h5></div>
+                  <img class= "card-img-top" src="trending10.jpg">
+                  <p>“Jewelry is a very personal thing it should tell a story about the person who’s wearing it.”</p>
+              <div class="footer my-3" >
+                <div class="btn bg-info">255</div>
+                 <div class="btn bg-warning" style="float: right;">Add to cart</div> 
+            </div>
+          </div>
+          </div>
+          </div>
+    
+          <div class="col-sm-5 w-25">
+            <div class="card my-3">
+              <div class="card-body">
+                <div class="card-title"><h5>Sports shoes</h5></div>
+                  <img class= "card-img-top" src="trending11.jpg">
+                  <p>I love the simplicity and freedom of running. A pair of shoes, and you are all set to explore new trails. </p>
+              <div class="footer my-3" >
+                <div class="btn bg-info">255</div>
+                 <div class="btn bg-warning" style="float: right;">Add to cart</div> 
+            </div>
+          </div>
+          </div>
+          </div>
+    
+          <div class="col-sm-5 w-25">
+            <div class="card my-3">
+              <div class="card-body">
+                <div class="card-title"><h5>Kitchen Layout</h5></div>
+                  <img class= "card-img-top" src="trending12.jpeg">
+                  <p> The time I spend with my family, in the kitchen and out, is precious and priceless. </p>
+              <div class="footer my-3" >
+                <div class="btn bg-info">255</div>
+                 <div class="btn bg-warning" style="float: right;">Add to cart</div> 
+            </div>
+          </div>
+          </div>
+          </div>
+    
+
+          <div class="col-sm-5 w-25">
+            <div class="card my-3">
+              <div class="card-body">
+                <div class="card-title"><h5>Baby Girl frock</h5></div>
+                  <img class= "card-img-top" src="trending13.jpg">
+                  <p>“Baby girls are precious gifts, wrapped in love serene. Their dresses tied with sashes and futures tied with dreams.”</p>
+              <div class="footer my-3" >
+                <div class="btn bg-info">255</div>
+                 <div class="btn bg-warning" style="float: right;">Add to cart</div> 
+            </div>
+          </div>
+          </div>
+          </div>
+    
+    </div>
+    </div>
+
+    <h2 style="margin-left: 130px;">Gifts By personality Type</h2>
+
+<div class="imagecard" >
+    <div class="container-sm my-3  p-3 text-warning">
+        <div class="row">
+          <div class="col-sm-5 w-25">
+            <div class="card my-3">
+              <div class="card-body">
+                
+                  <img class= "card-img-top" src="musicpersonality.jpeg">
+                  <div class="card-title"><h5>Music Lovers</h5></div>
+          </div>
+          </div>
+          </div>
+    
+
+          <div class="col-sm-5 w-25">
+            <div class="card my-3">
+              <div class="card-body">
+                
+                  <img class= "card-img-top" src="teachers.jpg">
+                  <div class="card-title"><h5>Teachers</h5></div>
+          </div>
+          </div>
+          </div>
+    
+
+          <div class="col-sm-5 w-25">
+            <div class="card my-3">
+              <div class="card-body">
+                
+                  <img class= "card-img-top" src="fitness.jpg">
+                  <div class="card-title"><h5>Fitness</h5></div>
+          </div>
+          </div>
+          </div>
+    
+          <div class="col-sm-5 w-25">
+            <div class="card my-3">
+              <div class="card-body">
+               
+                  <img class= "card-img-top" src="sports1.jpg">
+                  <div class="card-title"><h5>Sports Lover</h5></div>
+          </div>
+          </div>
+          </div>
+
+          <div class="col-sm-5 w-25">
+            <div class="card my-3">
+              <div class="card-body">
+                
+                  <img class= "card-img-top" src="doctor1.jfif"> 
+                  <div class="card-title"><h5>Doctors</h5></div>
+          </div>
+          </div>
+          </div>
+
+          <div class="col-sm-5 w-25">
+            <div class="card my-3">
+              <div class="card-body">
+                
+                  <img class= "card-img-top" src="books.jfif">
+                  <div class="card-title"><h5>Book Lovers</h5></div>
+          </div>
+          </div>
+          </div>
+
+          <div class="col-sm-5 w-25">
+            <div class="card my-3">
+              <div class="card-body">
+                
+                  <img class= "card-img-top" src="coffee tea lover.jpg">
+                  <div class="card-title"><h5>Coffee & Tea Lovers</h5></div>
+          </div>
+          </div>
+          </div>
+
+          <div class="col-sm-5 w-25">
+            <div class="card my-3">
+              <div class="card-body">
+               
+                  <img class= "card-img-top" src="travellovers.jpg">
+                  <div class="card-title"><h5>Travel</h5></div>
+          </div>
+          </div>
+          </div>
+
+          </div>
+    </div>
+    </div>
+
+    <h2 style="margin-left: 130px;">Birthday Best Seller</h2>
+
+    <div class="imagecard" >
+      <div class="container-sm my-3  p-3 text-warning">
+          <div class="row">
+            <div class="col-sm-5 w-25">
+              <div class="card my-3">
+                <div class="card-body">
+                  
+                    <img class= "card-img-top" src="cakeseller.jpg">
+                    <div class="card-title"><h5>Cakes</h5></div>
+            </div>
+            </div>
+            </div>
+
+            <div class="col-sm-5 w-25">
+              <div class="card my-3">
+                <div class="card-body">
+                 
+                    <img class= "card-img-top" src="birthdayseller.jpg">
+                    <div class="card-title"><h5>Room Decoration</h5></div>
+            </div>
+            </div>
+            </div>
+    
+
+            <div class="col-sm-5 w-25">
+              <div class="card my-3">
+                <div class="card-body">
+                  
+                    <img class= "card-img-top" src="birthdaygift.jpg">
+                    <div class="card-title"><h5>Birthday Gift</h5></div>
+            </div>
+            </div>
+            </div>
+
+            <div class="col-sm-5 w-25">
+              <div class="card my-3">
+                <div class="card-body">
+                  
+                    <img class= "card-img-top" src="birthdaygift1.jpg">
+                    <div class="card-title"><h5>Mom's Love</h5></div>
+            </div>
+            </div>
+            </div>
+          </div>
+    </div>
+    </div>
+
+    <h2 style="margin-left: 130px;">Cakes Online</h2>
+
+<div class="imagecard" >
+    <div class="container-sm my-3  p-6 text-warning">
+        <div class="row">
+          <div class="col-sm-9">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title">
+                  <img class= "card-img-top" src="cake11.webp" style="height: 500px;">
+              <h5>Death By chocolate Cake</h5>
+              
+            </div>
+          </div>
+          </div>
+          </div>
+
+          <div class="col-sm-3 ">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title">
+                  <img class= "card-img-top" src="cupcake3.jpg" style="height: 500px;">
+              <h5>Cup Cake</h5>
+          </div>
+          </div>
+          </div>
+          </div>
+
+          <div class="col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title"> 
+                  <img class= "card-img-top" src="cake111.webp" style="height: 500px;">
+              <h5>The Cake world</h5>
+              
+            </div>
+          </div>
+          </div>
+          </div>
+
+          <div class="col-sm-3 ">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title"> 
+                  <img class= "card-img-top" src="redvelvetcake.jpg" style="height: 500px;">
+              <h5>Red Velvate cake</h5>
+            </div>
+          </div>
+          </div>
+          </div>  
+          
+          <div class="col-sm-9 ">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title"> 
+                  <img class= "card-img-top" src="cake123.jfif" style="height: 500px;">
+              <h5>Delactable Chocolate Cake With Cherry</h5>
+              
+            </div>
+          </div>
+          </div>
+          </div>  
+
+        </div>
+    </div>
+    </div>
+
+    <h2 style="margin-left: 130px;">Premium Gifts</h2>
+
+<div class="imagecard" >
+    <div class="container-sm my-3  p-3 text-warning">
+        <div class="row">
+          <div class="col-sm-6 w-25">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title"> 
+                  <h5>Premium Gift Black Box</h5>
+                  <img class= "card-img-top" src="premiumgift1.jpg">
+              
+              <div class="footer my-3" >
+                <div class="btn bg-secondary" style="float: left;">2050</div> 
+                 <div class="btn bg-warning" style="float: right;">Add to cart</div>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+
+          <div class="col-sm-6 w-25">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title"> 
+                  <h5>Rose Premium Gift Set</h5>
+                  <img class= "card-img-top" src="premiumgift2.jpg">
+              
+              <div class="footer my-3" >
+                <div class="btn bg-secondary" style="float: left;">1850</div> 
+                 <div class="btn bg-warning" style="float: right;">Add to cart</div>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+
+          <div class="col-sm-6 w-25">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title"> 
+                  <h5>Gratitude-Box</h5>
+                  <img class= "card-img-top" src="premiumgift3.jpg">
+              
+              <div class="footer my-3" >
+                <div class="btn bg-secondary" style="float: left;">2850</div> 
+                 <div class="btn bg-warning" style="float: right;">Add To Cart</div>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+
+          <div class="col-sm-6 w-25">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title"> 
+                  <h5>Gift Box</h5>
+                  <img class= "card-img-top" src="premiumgift4.jpg">
+              
+              <div class="footer my-3" >
+                <div class="btn bg-secondary" style="float: left;">2250</div> 
+                 <div class="btn bg-warning" style="float: right;">Add to cart</div>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>     
+
+        </div>
+    </div>
+    </div>
+
+    <h2 style="margin-left: 130px;">Online Plant Delivery</h2>
+
+<div class="imagecard" >
+    <div class="container-sm my-3  p-6 text-warning">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title"> 
+                  <img class= "card-img-top" src="plant3.jpg" style="height: 500px;">
+              <h5>Table Plants</h5>
+              
+            </div>
+          </div>
+          </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title"> 
+                  <img class= "card-img-top" src="plant4.jpg" style="height: 500px;">
+              <h5>Gardening Plant</h5>
+              
+            </div>
+          </div>
+          </div>
+          </div>
+
+
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title"> 
+                  <img class= "card-img-top" src="Plants.jpg" style="height: 500px;">
+              <h5>Planting</h5>
+              
+            </div>
+          </div>
+          </div>
+          </div>
+
+
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title"> 
+                  <img class= "card-img-top" src="plant1.png" style="height: 500px;">
+              <h5>Indoor Plants</h5>
+              
+            </div>
+          </div>
+          </div>
+          </div>
+       
+
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title"> 
+                  <img class= "card-img-top" src="plant2.jpeg" style="height: 500px;">
+              <h5>Indoor Decorating Plant</h5>
+              
+            </div>
+          </div>
+          </div>
+          </div>
+      
+
+        </div>
+    </div>
+    </div>
+
+    <h2 style="margin-left: 130px;">Gift For</h2>
+
+    <div class="imagecard" >
+        <div class="container-sm my-3  p-6 text-warning">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="card-title"> 
+                      <img class= "card-img-top" src="giftfor1.jpg" style="height: 500px;">
+                  <h5>The Best Gift For You'r Loved One</h5>
+                </div>
+              </div>
+              </div>
+              </div>
+    
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="card-title"> 
+                      <img class= "card-img-top" src="giftfor2.jpg" style="height: 500px;">
+                  <h5>Anniverssary Gift</h5>
+                </div>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+
+              <h2 style="margin-left: 130px;">Gift mall</h2>
+
+              <div class="imagecard" >
+                  <div class="container-sm my-3  p-6 text-warning">
+                      <div class="row">
+                        <div class="col-sm-3">
+                          <div class="card">
+                            <div class="card-body">
+                              <div class="card-title"> 
+                                <img class= "card-img-top" src="Giftmall1.jpg" style="height: 500px;">
+                            <h5>Gift Mall</h5>
+                            
+                          </div>
+                        </div>
+                        </div>
+                        </div>
+              
+                        <div class="col-sm-6 ">
+                          <div class="card">
+                            <div class="card-body">
+                              <div class="card-title">
+                                <img class= "card-img-top" src="Giftmall2.jfif" style="height: 500px;">
+                            <h5>Teddy Love</h5>
+                            
+                          </div>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div class="col-sm-3 ">
+                            <div class="card">
+                              <div class="card-body">
+                                <div class="card-title"> 
+                                  <img class= "card-img-top" src="giftmall.webp" style="height: 500px;">
+                              <h5>Gift Shop</h5>
+                             
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                          </div>
+                        
+                        </div>
+                        </div>
+                        </div>
+
+                       
+                        <div class="container-fluid-sm" style="background-image: url(backgroundkfc.jpg); background: none; margin: 50px 0;">
+                          <div class="row">
+                            <div class="col-sm-2">
+                          <div class="card" style="border: none;">
+                            <div class="card-body" style="text-align: center;">
+                              <img src="india.png" style="width:100px; height: 100px; border-radius: 100px;"><br>
+                              <span>INDIA</span>
+                            </div>
+                          </div>
+                        </div> 
+
+                        <div class="col-sm-2">
+                          <div class="card" style="border: none;">
+                            <div class="card-body" style="text-align: center;">
+                              <img src="usa.png" style="width:100px; height: 100px; border-radius: 100px;"><br>
+                            <span>USA</span>
+                            </div>
+                          </div>
+                        </div> 
+
+                        <div class="col-sm-2">
+                          <div class="card" style="border: none;">
+                            <div class="card-body" style="text-align: center;">
+                              <img src="uk.png" style="width:100px; height: 100px; border-radius: 100px;"><br>
+                            <span>UK</span>
+                            </div>
+                          </div>
+                        </div>  
+
+                        <div class="col-sm-2">
+                          <div class="card" style="border: none;">
+                            <div class="card-body" style="text-align: center;">
+                              <img src="canada.png" style="width:100px; height: 100px; border-radius: 100px;"><br>
+                              <span>CANADA</span>
+                            </div>
+                          </div>
+                        </div> 
+
+                        <div class="col-sm-2">
+                          <div class="card" style="border: none;">
+                            <div class="card-body" style="text-align: center;">
+                              <img src="Astralia.png" style="width:100px; height: 100px; border-radius: 100px;"><br>
+                              <span>AUSTRALIA</span>
+                            </div>
+                          </div>
+                        </div> 
+
+                        <div class="col-sm-2">
+                          <div class="card" style="border: none;">
+                            <div class="card-body" style="text-align: center;">
+                              <img src="Worldwide.png" style="width:100px; height: 100px; border-radius: 100px;"><br>
+                              <span>WORLDWIDE</span>
+                            </div>
+                          </div>
+                        </div> 
+
+                        
+                      </div>
+                      </div>
+
+                       
+                        <div class="container-fluid-sm" style="background-image: url(backgroundkfc.jpg); height: 400px;">
+                          <div class="card" style="border: none; background: none;">
+                            <div class="card-body" style="text-align: center;">
+                              <ul class="social-icons" style="list-style-type: none; font-size: 30px; display: flex; border: none; width: 500pxx;justify-content: space-around; margin-top: 100px; margin-bottom: 100px;">
+                                <li><a href="#"><i class="fa fa-facebook" ><br>Facebook</i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"><br>Twitter</i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"><br>Instagram</i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"><br>linkedin</i></a></li>
+                            </ul>
+                              <div class="footer" style="height: 100px; font-size: 20px; float: right; color: rgb(139, 134, 134);">
+                                <h4>Contact Us:0123456789</h4>
+                                Copyright fernsn petals Co. Design:Mahalakshmi.
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+
+                       
+
+                        
+                          
+                            
+                          
+                          
+                         
+
+    
+    
+    
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

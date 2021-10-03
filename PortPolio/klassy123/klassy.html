@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="klassy.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>klassy</title>
+    <style>
+        .navbar {
+            display: flex;
+            position: sticky;
+            top: 0;
+            position: -webkit-sticky;
+            z-index: 1;
+            background-color: white;
+        }
+
+        .nav {
+            width: 40%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav1 {
+            width: 60%;
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .cook {
+            position: relative;
+        }
+
+        .cookimage {
+            display: block;
+            width: 100%;
+            height: 500px;
+            opacity: 1;
+        }
+
+        .cookoverlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .2s ease;
+
+        }
+
+        .cook:hover .cookoverlay {
+            opacity: 0.6;
+            height: 300px;
+            transition: height 2s;
+        }
+
+        .cooktext {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+            border: none;
+            background-color: red;
+            width: 381px;
+            height: 150px;
+            padding-top: 30px;
+        }
+
+        .social-icons,
+        a,
+        li {
+            font-size: 30px;
+            color: rgb(248, 247, 247);
+            display: flex;
+            padding-left: 30px;
+        }
+
+        .bar1,
+        .bar2 {
+            border: hidden;
+            height: 800px;
+            color: white;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container-fluid-sm" style="position: sticky; z-index: 1; top: 0; height: 100px;">
+        <div class="row">
+            <div class="navbar">
+                <div class="nav">
+                    <p>
+                        <img src="klassy.png">
+                    </p>
+                </div>
+
+                <div class="nav1">
+                    <div class="navDiv" style="color: red; font-weight: bold;">Home</div>
+                    <div class="navDiv">About</div>
+                    <div class="navDiv">Menu</div>
+                    <div class="navDiv">Chefs</div>
+                    <div class="navDiv">
+                        <select style="border: none;">
+                            <option value="#">Features</option>
+                            <option value="#">Link1</option>
+                            <option value="#">Link1</option>
+                            <option value="#">Link1</option>
+                            <option value="#">Link1</option>
+                        </select>
+                    </div>
+                    <div class="navDiv">ContactUs</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="conatiner-fluid-sm" style="background-image: url(top-left-bg.jpg);">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card" style="background-image: url(top-left-bg.jpg); height: 700px;  border: hidden;">
+                    <div class="card-body" style="text-align: center; margin-top: 250px;">
+                        <h4 style="color: rgb(253, 250, 250);font-family: 'Dancing Script', cursive; font-size: 50px;">
+                            KlassyCafe</h4>
+                        <h6 style="color: white;">THE BEST EXPERIENCE</h6>
+                        <button
+                            style="color: red; background-color: white; border-radius: 5px; padding: 6px; border: none;"><b>Make
+                                A Reservation</b></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-8">
+                <div class="card" style="background-image: url(klassy2.jpg); height: 700px; border: hidden;">
+                    <div class="card-body">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-sm">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card" style="margin-top: 100px; border: none;">
+                    <div class="card-body">
+                        <span style="color:red">----About us</span>
+                        <h1><b style="font-size: 30px;">We Leave A Delicious<br> Memory For You</b></h1><br>
+                        <p>
+                            Klassy Cafe is one of the best restaurants located in the heart<br>
+                            of Jaipur since 1990. Klassy was started as a small roadside<br>
+                            establishment offering quick servings starting from tea to samosas, <br>
+                            kachoris to masala tikkis and more. We quickly grew into a major <br>
+                            chain of cafes, currently offering over 50 products at 4 outlets<br>
+                            scattered across the city. We are known for taste, quality and quick<br>
+                            service. We also handle orders for home deliveries via Zomato, Swiggy<br>
+                            and Uber Eats. Come, taste the best!
+                        </p>
+                        <div class="img" style="display: flex; justify-content: space-around;">
+                            <div class="img1">
+                                <img src="klassy4.jpg">
+                            </div>
+
+                            <div class="img2">
+                                <img src="klassy5.jpg">
+                            </div>
+
+                            <div class="img3">
+                                <img src="klassy6.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="card" style="margin-top: 100px; border: none;">
+                    <div class="card-body">
+                        <div class="subimg">
+                            <img src="klassy3.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="menu" style="color: red; padding-top: 100px; padding-left: 100px;">----OUR MENU</div>
+        <div class="menu1" style=" font-weight: bold; font-size: 30px; padding-top: 50px; padding-left:100px;">
+            <b>Our selection of cakes <br>with quality taste</b>
+        </div>
+    </div>
+
+    <div class="container-sm" style="margin-top: 100px;">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="cake2.jpg" alt="..." class="image" style="width: 275px; height: 400px;">
+                        <div class="footer" style="text-align: center;">Chocolate Cake</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body">
+
+                        <img src="cake10.jpg" alt="..." class="image1">
+                        <div class="footer" style="text-align: center;">Cup-Cake</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="animated2">
+                            <img src="cake11.jpg" alt="..." class="image2">
+                            <div class="footer" style="text-align: center;">Cake with syrup</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="cake12.jpg" alt="..." class="image3">
+                        <div class="footer" style="text-align: center;">Puffs</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div style="color: red; text-align: center; padding-top: 100px;">----OUR CHEFS<br></div>
+
+        <h1 style="text-align: center;font-size: 30px; padding-top: 50px;"><b>We offer the best <br>ingredients for
+                you</b></h1>
+
+        <div class="container-sm" style="margin-top: 100px;">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="cook">
+                                <img src="cook1.jpg" alt="..." class="cookimage">
+                                <div class="cookoverlay">
+                                    <div class="cooktext">Sanjana<br>(cake maker)
+                                        <ul class="social-icons">
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="cook">
+                                <img src="cook2.jpg" alt="..." class="cookimage">
+                                <div class="cookoverlay">
+                                    <div class="cooktext"> Robert<br>(tandoori maker)
+                                        <ul class="social-icons">
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="cook">
+                                <img src="cook3.jpg" alt="..." class="cookimage">
+                                <div class="cookoverlay">
+                                    <div class="cooktext">Rosy<br>(Pastry Chef)
+                                        <ul class="social-icons">
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div> -->
+
+
+        <div class="container-fluid-sm" style="margin-top: 100px;   background-image: url(reservation-bg.jpg);">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card" style="border: none; background: none;">
+                        <div class="card-body">
+
+                            <div class="bar1">
+                                <h5 style="color:rgb(243, 237, 237); padding-top: 100px; letter-spacing: 1px;">
+                                    ----Contact Us</h5>
+                                <h2 style="color: white; word-spacing: 2px; padding-top: 50px; ">Here You Can Make A
+                                    Reservation <br>Or Just walkin to our cafe</h2>
+                                <h6 style="color: white; word-spacing: 2px; padding-top:30px;">Contact us anytime
+                                    between 9 a.m. and 8 p.m. for reservations or any <br>enquiries. You can reach
+                                    us via phone, mail or WhatsApp.</h6>
+                                <div style="border:hidden; width: 500px; margin-top: 100px; height: 150px;">
+                                    <span
+                                        style="border: hidden; text-align: center;float: left; height: 150px; width: 220px; background-color: white;color: rgb(241, 0, 0); border-radius: 5px; padding-top: 30px;"><b>Phone
+                                            Numbers</b><br> 9678556700 <br>0141-2445645</span>
+                                    <span
+                                        style="border: hidden; text-align: center;float: right; height: 150px; background-color: white; color: rgb(241, 0, 0); border-radius: 5px; width: 220px; padding-top: 30px;">Emails<br>customer@klassy.com<br>info@klassy.com</span>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card" style="background: none;">
+                        <div class="card-body">
+                            <div class="bar2" style="padding-right: 100px;">
+                                <label
+                                    style="border: 1px solid white; height: 500px; background-color: white; border-radius: 10px; margin-top: 100px; margin-left: 10px; width: 450px;">
+                                    <h2 style="color: black; text-align: center; padding-top: 50px;"> <b>Table
+                                            Reservation</b></h2>
+                                    <input type="text" placeholder="Your Name" id="#"
+                                        style="width: 200px; height: 40px; border-radius: 5px; margin-top: 50px; margin-left: 10px;">
+                                    <input type="text" placeholder="Your E-mail Adress" id="#"
+                                        style="width: 200px; height: 40px; border-radius: 5px; margin-top: 50px; margin-left: 10px;">
+                                    <input type="Number" placeholder="Phone Number" id="#"
+                                        style="width: 200px; height: 40px; border-radius: 5px; margin-top: 50px; margin-left: 10px;">
+                                    <input type="text" placeholder="Number Of Guests" id="#"
+                                        style="width: 200px; height: 40px; border-radius: 5px; margin-top: 50px; margin-left: 10px;">
+                                    <input type="Date" placeholder="DOB" id="#"
+                                        style="width: 200px; height: 40px; border-radius: 5px; margin-top: 50px; margin-left: 10px;">
+                                    <input type="text" placeholder="Time" id="#"
+                                        style="width: 200px; height: 40px; border-radius: 5px; margin-top: 50px; margin-left: 10px;">
+                                    <button
+                                        style="width: 100%; background-color: red; color: white;margin-top: 50px; height: 50px; border-radius: 5px;"><b>Make
+                                            a Reaservation</b></button>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div style="text-align: center; margin-top: 100px;">
+            <h5 style="color:red">KLASSY WEEK</h5>
+            <h1>
+                <b>This week's special <br>Meal offers
+            </h1>
+        </div>
+
+        <div class="container-sm" style="text-align: center;">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card" style="border: hidden;">
+                        <div class="card-body">
+                            <div>
+                                <p> <img src="tab.png"></p>
+                                <p>Breakfast</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card" style="border: hidden;">
+                        <div class="card-body">
+                            <div>
+                                <p> <img src="tab1.png"></p>
+                                <p style="padding-left: 20px;">Lunch</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card" style="border: hidden;">
+                        <div class="card-body">
+                            <div>
+                                <p> <img src="tab2.png"></p>
+                                <p style="padding-left: 20px;">Dinner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid-sm" style="background-color: #fb5849; height: 150px; padding: 50px 0px;">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card" style="border: hidden;">
+                    <div class="card-body" style="background-color: #fb5849;">
+                        <ul class="social-icons">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card" style="border: hidden;">
+                    <div class="card-body" style="background-color: #fb5849; text-align: center;">
+                        <img src="white-logo.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card" style="border: hidden;">
+                    <div class="card-body" style="background-color: #fb5849; color: white;">
+                        Copyright klassy Cafe Co.<br>Design:Poonam Sonkiya
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
